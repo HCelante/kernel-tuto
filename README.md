@@ -17,5 +17,7 @@
 
 ## **Compilação no Debian:**
 
-
+### Checando a versão atual do kernel
 ![Checando a versão](https://i.imgur.com/ET65fG0.png)
+
+
