@@ -22,13 +22,16 @@
 ![Checando a versão](https://i.imgur.com/ET65fG0.png)
 
 ### Entrando como root
+
+![root](https://i.imgur.com/be4kyk3.png)
+
 ### Adicionando repositório das dependências
 > Caminho etc/apt/sources.list
-![Lista de repositórios]()
+![Lista de repositórios](https://i.imgur.com/kr81MyK.png)
 
 ### Baixando a última versão estável do kernel
 > wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.2.9.tar.xz
-![comando para baixar]()
+![comando para baixar](https://i.imgur.com/vPiRySI.png)
 
 ### Descompactando na pasta /src
 > tar xvf linux-5.2.9.tar.xz -C /usr/src
@@ -38,4 +41,15 @@
 
 ### Fazer uma cópia da configuração atual 
 > cp -v /boot/config-$(uname -r) .config
+
+### Configurar o kernel com as opções específicas para a arquitetura e módulos que deseja compilar
+> make localmodconfig
+![localmodconfig](https://i.imgur.com/LFOzyhf.png)
+
+> make menuconfig
+
+![menuconfig](https://i.imgur.com/kVA6NDp.png)
+
+###  Após gravar as configurações, compile e instale:
+> make -j2 //onde 2 é o número de núcleos (nproc) 
 
