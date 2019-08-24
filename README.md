@@ -26,30 +26,68 @@
 ![root](https://i.imgur.com/be4kyk3.png)
 
 ### Adicionando repositório das dependências
+
 > Caminho etc/apt/sources.list
+
 ![Lista de repositórios](https://i.imgur.com/kr81MyK.png)
 
 ### Baixando a última versão estável do kernel
+
 > wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.2.9.tar.xz
+
 ![comando para baixar](https://i.imgur.com/vPiRySI.png)
 
 ### Descompactando na pasta /src
+
 > tar xvf linux-5.2.9.tar.xz -C /usr/src
 
 ### Acessar o diretório com o código-fonte do kernel
+
 > cd /usr/src/linux- 5.2.9
 
 ### Fazer uma cópia da configuração atual 
+
 > cp -v /boot/config-$(uname -r) .config
 
 ### Configurar o kernel com as opções específicas para a arquitetura e módulos que deseja compilar
+
 > make localmodconfig
+
 ![localmodconfig](https://i.imgur.com/LFOzyhf.png)
 
 > make menuconfig
 
 ![menuconfig](https://i.imgur.com/kVA6NDp.png)
+![Imgur](https://i.imgur.com/8pZNJq6.png)
 
 ###  Após gravar as configurações, compile e instale:
+
 > make -j2 //onde 2 é o número de núcleos (nproc) 
+
+![makej2](https://i.imgur.com/yDzsB1s.png)
+
+> make modules_install
+
+![Imgur](https://i.imgur.com/AMeFJqO.png)
+
+> make install
+
+![Imgur](https://i.imgur.com/fd8uKzy.png)
+
+### Checando o tamanho da pasta modules
+
+> du -sh 5.2.0-2-amd64/
+
+![Imgur](https://i.imgur.com/Spefpec.png)
+
+### Checando a versão do kernel
+
+Após reiniciar a máquina abra o terminal
+
+> uname -r
+
+![Imgur](https://i.imgur.com/wTnn9S3.png)
+
+
+
 
