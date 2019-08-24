@@ -18,4 +18,4 @@
 ## **Compilação no Debian:**
 
 
-[Imgur](https://i.imgur.com/ET65fG0.png)
+![Checando a versão](https://i.imgur.com/ET65fG0.png)
