@@ -18,4 +18,4 @@
 ## **Compilação no Debian:**
 
 
-![checaversao](https://drive.google.com/file/d/1geDp8SG_pZlbjVgim0n3iTJfFjHeVsNR/preview)
+[Imgur](https://i.imgur.com/ET65fG0.png)
