@@ -18,4 +18,4 @@
 ## **Compilação no Debian:**
 
 
-![](https://drive.google.com/file/d/1geDp8SG_pZlbjVgim0n3iTJfFjHeVsNR/preview)
+![checaversao](https://drive.google.com/file/d/1geDp8SG_pZlbjVgim0n3iTJfFjHeVsNR/preview)
