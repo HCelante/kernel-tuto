@@ -89,5 +89,42 @@ Após reiniciar a máquina abra o terminal
 ![Imgur](https://i.imgur.com/wTnn9S3.png)
 
 
+## **Compilação no FreeBSD:**
+
+### Acessar o arquivo de configuração e criar uma cópia da configuração genérica: 
+
+> cd /usr/src/sys/amd64/conf 
+> cp GENERIC MYKERNEL
+
+![Imgur](https://i.imgur.com/lSrsWM5.png)
+
+### Altere a identificação do kernel GENERIC e desabilite os módulos e dispositivos não necessários 
+
+> vi MYKERNEL 
+
+ident GENERIC → ident MYKERNEL
+
+!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
