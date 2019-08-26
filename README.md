@@ -27,7 +27,7 @@
 
 ### Adicionando repositório das dependências
 
-> Caminho etc/apt/sources.list
+> nano etc/apt/sources.list
 
 ![Lista de repositórios](https://i.imgur.com/kr81MyK.png)
 
