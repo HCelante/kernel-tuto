@@ -104,11 +104,37 @@ Após reiniciar a máquina abra o terminal
 
 ident GENERIC → ident MYKERNEL
 
-!
+### Volte para o diretório raiz do fonte: 
+
+> cd /usr/src
+
+### Compile o novo kernel:
+
+> make buildkernel KERNCONF=MYKERNEL
+
+#### E espere:
+![Imgur](https://i.imgur.com/Rf3iXxH.png)
+
+### Instale o novo kernel: 
+
+> make installkernel KERNCONF=MYKERNEL
+
+#### E espere novamente:
+
+![Imgur](https://i.imgur.com/OKGahhJ.png)
 
 
+### Para verificar o tamanho do novo kernel e antigo: 
 
+> cd /boot/kernel 
 
+> du -sh 
+
+> cd /boot/kernel.old 
+
+> du -sh - Reinicie o sistema. 
+
+![Imgur](https://i.imgur.com/t38c1jJ.png)
 
 
 
