@@ -12,8 +12,10 @@
    - Debian GNU/Linux 10 
    - Kernel : 4.19.0-5-amd64
    - Tamanho lib/modules/4.19.0-5-amd64 = 258mb
+   
    - FreeBSD   12
-   - Kernel:
+   - Kernel: 4.19.0-5-amd64
+   - Tamanho = 130mb
 
 
 ## **Compilação no Debian:**
